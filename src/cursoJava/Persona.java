@@ -28,5 +28,9 @@ public class Persona {
 	public void setTelefono(int telefono) {
 		this.telefono = telefono;
 	}
+	@Override
+	public String toString() {
+		return "Persona [edad=" + edad + ", nombre=" + nombre + ", telefono=" + telefono + "]";
+	}
 	
 }
